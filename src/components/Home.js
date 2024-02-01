@@ -4,6 +4,7 @@ import "../App.css";
 
 function Home() {
   return (
+    <>
     <div className='container home' style={{marginTop:"10vh"}}>
       <div className='content__left'>
       <h1 className='content__heading'>Manage Your Tasks with ease</h1>
@@ -15,6 +16,12 @@ function Home() {
         <img src="../images/home.png" alt="home-img" />
       </div>
     </div>
+    <div className='container home' style={{marginTop:"10vh"}}>
+    <div className='content__left'>
+    <Button variant="primary"><a href="/managerpage">Manager Page</a></Button>
+    </div>
+    </div>
+    </>
   )
 }
 

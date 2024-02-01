@@ -7,7 +7,7 @@ const AppNavbar = () => {
   return (
     <Navbar style={{marginBottom:"50px"}} bg="primary" variant="dark" sticky="top" expand="lg">
       <Container>
-        <Navbar.Brand style={{fontSize:"1.5rem"}} href="/home">Task Manager</Navbar.Brand>
+        <Navbar.Brand style={{fontSize:"1.5rem"}} href="/home">Delegate</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" style={{textAlign:"center",}}>
           <Nav className="me-auto" style={{ marginLeft:"auto", gap: "30px" }}>
